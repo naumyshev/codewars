@@ -7,6 +7,6 @@ function defineSuit(card) {
   } else if(card[card.length-1] =='♥'){
     return 'hearts';
   } else {
-    return 'spades';
+    return 'spades';  
   }
 }
