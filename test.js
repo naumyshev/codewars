@@ -10,3 +10,7 @@ const addFive = num => num + 5
 // 8 kyu
 // Will you make it?
 const zeroFuel = (distanceToPump, mpg, fuelLeft) => mpg * fuelLeft >= distanceToPump
+
+// 8 kyu
+// String Templates - Bug Fixing #5
+const buildString = (...template) => `I like ${template.join(', ')}!`
