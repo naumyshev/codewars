@@ -22,3 +22,18 @@ const hoopCount = n => n >= 10 ? "Great, now move on to tricks" : "Keep at it un
 // 8 kyu
 // Invert values
 const invert = (array) => array.map(el => el * -1)
+
+// 8 kyu
+// Find Maximum and Minimum Values of a List
+const min = function(list){
+
+    list.sort((a, b) => a > b ? 1 : -1)
+
+    return list[0];
+}
+const max = function(list){
+
+    list.sort((a, b) => a < b ? 1 : -1)
+
+    return list[0];
+}
