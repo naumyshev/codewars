@@ -37,3 +37,7 @@ const max = function(list){
 
     return list[0];
 }
+
+// 8 kyu
+// Return to Sanity
+const mystery = () => ({sanity: 'Hello'})
