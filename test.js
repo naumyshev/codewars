@@ -41,3 +41,7 @@ const max = function(list){
 // 8 kyu
 // Return to Sanity
 const mystery = () => ({sanity: 'Hello'})
+
+// 8 kyu
+// Keep Hydrated!
+const litres = time => Math.trunc(time * 0.5)
