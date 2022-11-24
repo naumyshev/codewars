@@ -45,3 +45,15 @@ const mystery = () => ({sanity: 'Hello'})
 // 8 kyu
 // Keep Hydrated!
 const litres = time => Math.trunc(time * 0.5)
+
+// 8 kyu
+// Basic Mathematical Operations
+function basicOp(operation, value1, value2)
+{
+    switch (operation) {
+        case '+':  return value1 + value2
+        case '-':  return value1 - value2
+        case '*':  return value1 * value2
+        case '/':  return value1 / value2
+    }
+}
