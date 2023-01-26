@@ -57,3 +57,16 @@ function basicOp(operation, value1, value2)
         case '/':  return value1 / value2
     }
 }
+
+// 8 kyu
+// Unfinished Loop - Bug Fixing #1
+
+const createArray = number => {
+    var newArray = [];
+
+    for(var counter = 1; counter <= number; counter++){
+        newArray.push(counter);
+    }
+
+    return newArray;
+}
